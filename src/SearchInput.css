@@ -1,0 +1,42 @@
+input{
+    max-width: 600px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 15px;
+    background-color: aquamarine;
+    padding: 5px 15px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.search-icon{
+    font-size: 55px;
+    background-color: aqua;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    margin: -21px;
+    border-radius: 0 15px 15px 0;
+}
+.image{
+    width: 224px;
+    height: 200px;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
